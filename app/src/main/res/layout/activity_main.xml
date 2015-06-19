@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="blocksDescendants">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:descendantFocusability="blocksDescendants">
+
+        <TextView
+            android:text="TextView"
+            android:id="@+id/cat"
+            android:textColor="#ffff66bd"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:background="#fffff8c5"
+            android:layout_gravity="center_horizontal" />
+
+        <ListView
+            android:layout_height="wrap_content"
+            android:id="@+id/listView1"
+            android:layout_width="match_parent"></ListView>
+    </LinearLayout>
+
+    <!-- The navigation drawer -->
+
+    <LinearLayout
+        android:id="@+id/left_drawer"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_gravity="left"
+        android:background="#fffff4eb"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/top"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/top"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/dom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dom"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/inte"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/inte"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/eco"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/eco"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/ent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ent"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/spo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/spo"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/cin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/cin"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/gor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/gor"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/love"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/love"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/trend"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/trend"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:layout_weight="1" />
+    </LinearLayout>
+</android.support.v4.widget.DrawerLayout>
